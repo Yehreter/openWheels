@@ -18,7 +18,7 @@ async function loadGame() {
   window.HW_SETTINGS = {
     siteURL: "./",
     corsProxy:
-      localStorage.getItem("proxy") || "https://api.allorigins.win/raw?url=",
+      localStorage.getItem("proxy") || "https://killcors.com",
     pathPrefix: "",
     titleLabel: getTitleLabel(),
     titleLabelX: 645,
